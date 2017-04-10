@@ -11,6 +11,7 @@ public class GitTester {
 		for (Shape s : shapes) {
 			System.out.println("Shape size: " + s.calcSize() + " Shape type: " + s.getType());
 		}
+		System.out.println("Adding printer");
 	}
 	
 	GitTester() {
