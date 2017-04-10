@@ -9,7 +9,7 @@ public class GitTester {
 	
 	private void shapeShuffle() {
 		for (Shape s : shapes) {
-			System.out.println(s.calcSize() + " Shape type: " + s.getType());
+			System.out.println("Shape size: " + s.calcSize() + " Shape type: " + s.getType());
 		}
 	}
 	
