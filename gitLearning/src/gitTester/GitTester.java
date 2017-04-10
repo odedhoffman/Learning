@@ -20,6 +20,8 @@ public class GitTester {
 	}
 	
 	public static void main(String[] args) {
+		
+		System.out.println("Welcome to shape master");
 		GitTester gt = new GitTester();
 		gt.shapeShuffle();
 
